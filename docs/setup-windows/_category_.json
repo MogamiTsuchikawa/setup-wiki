@@ -1,0 +1,8 @@
+{
+  "label": "Windowsのセットアップ",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Windows周りの環境構築についてまとめています。"
+  }
+}
