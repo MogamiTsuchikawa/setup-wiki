@@ -72,7 +72,7 @@ fpath=(${ASDF_DIR}/completions $fpath)
 autoload -Uz compinit && compinit
 ```
 
-##　動作確認
+## 動作確認
 
 `asdf`とターミナルに打って、以下のように使い方説明が出ればOK
 
