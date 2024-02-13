@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '最上土川の環境構築まとめ',
-  tagline: '最上土川の環境構築まとめ',
+  tagline: 'WindowsやLinuxの環境構築に関してのメモ',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
