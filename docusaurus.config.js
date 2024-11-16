@@ -68,8 +68,8 @@ const config = {
       navbar: {
         title: 'SetupWiki',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'mogami',
+          src: 'img/mogami.jpg',
         },
         items: [
           {
