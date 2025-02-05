@@ -53,13 +53,14 @@ echo \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
+:::
+
 以下でDockerをインストールする
 ```bash
 sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
-:::
 
 ## Dockerの動作確認
 
