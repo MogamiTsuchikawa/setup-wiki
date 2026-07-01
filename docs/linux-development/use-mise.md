@@ -62,7 +62,11 @@ mise use --global node@lts
 ```
 
 ```bash
-mise use --global python@3
+mise use --global python@3.14
+```
+
+```bash
+mise use --global dotnet@10
 ```
 
 ```bash
@@ -80,7 +84,11 @@ mise use node@lts
 ```
 
 ```bash
-mise use python@3
+mise use python@3.14
+```
+
+```bash
+mise use dotnet@10
 ```
 
 このコマンドを実行すると、カレントディレクトリに`mise.toml`が作成または更新される。
@@ -90,7 +98,8 @@ mise use python@3
 ```toml
 [tools]
 node = "lts"
-python = "3"
+python = "3.14"
+dotnet = "10"
 ```
 
 `mise.toml`を直接編集した場合は、以下のコマンドで指定されているツールをインストールする。
@@ -154,7 +163,7 @@ miseでは`mise.toml`にタスクを定義して、`mise run`で実行できる�
 ```toml
 [tasks.doctor]
 description = "開発環境の確認"
-run = "node --version && python --version"
+run = "node --version && python --version && dotnet --version"
 
 [tasks.dev]
 description = "開発サーバーを起動"
