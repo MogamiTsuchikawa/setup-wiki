@@ -7,6 +7,14 @@ tags:
 
 # ASDFのセットアップ
 
+:::caution
+
+現在、このWikiではasdfの新規導入は非推奨です。miseを使うことをおすすめします。
+
+miseの導入は[miseのセットアップ](./setup-mise.md)、使い方は[miseの使用](./use-mise.md)を参照してください。
+
+:::
+
 ## ASDFとは？
 
 rubyenv, pyenvといった個々の言語バージョン管理ツールとは違い、各言語のバージョン管理を一括で行えるツール。
